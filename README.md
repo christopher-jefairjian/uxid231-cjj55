@@ -1,1 +1,7 @@
-# uxid231-cjj55
+# Christopher Jefairjian 
+
+## About
+
+## Topic
+
+## AI use
