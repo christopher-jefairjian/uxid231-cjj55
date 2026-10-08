@@ -7,4 +7,4 @@ Hi I am a fourth year entrepreneurhsip student. I am taking this class because I
 For my topic I would like to do the portfolio assignment. 
 
 ## AI use
-There was no use of AI for this assignment. 
+For Assignment #2 I used ChatGPT to help me understand what certain terms mean. 
