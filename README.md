@@ -9,4 +9,4 @@ For my topic I would like to do the portfolio assignment.
 ## AI use
 For Assignment #2 I used ChatGPT to help me understand what certain terms mean. 
 
-For Assignment #3 I used ChatGPT to review code I wrote and help me better understand certain topics from the course notes, such as creating external links that open in a new tab.
+For Assignment #3 I used ChatGPT to review code I wrote and help me better understand certain topics from the course notes, such as creating external links that open in a new tab
