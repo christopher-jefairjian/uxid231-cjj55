@@ -6,14 +6,15 @@
     content="width=device-width, initial-scale=1.0">
 
     <title>Christopher Jefairjian - Home</title> 
+    <link rel="stylesheet" href="styles.css">
 </head>  
 
 <body>
     <header>
-        <p><a href="index.html">Christopher Jefairjian</a></p>
+        <p class="site-name"><a href="index.html">Christopher Jefairjian</a></p>
         <nav aria-label="Primary">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="current">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -21,33 +22,46 @@
         </nav>
     </header>
 
-    <main>
+<main>
+    <section id="hero">
         <h1>Hi, I'm Christopher Jefairjian</h1>
         <p> 
             I am a student at Drexel University studying Entrepreneurship. 
             On this page you will find information about me, my projects, and how to contact me.  
         </p>
+    </section>
 
+    <section>
         <h2>What I'm working on</h2>
+
+        <article class="project-card">
+            <h3>Credit Catapult</h3>
         <p>
             I'm building Credit Catapult, a platform that helps people improve
             their credit scores and achieve their financial goals. I'm taking
             this class to learn the fundamentals of UI/UX design so I can apply
             them to that project.
         </p>
-        <p>
-            I also work on a human-grade dog food company that uses retort
-            packaging, which seals and heat-sterilizes food in its pouch so it
-            stays fresh at room temperature for extended periods. The idea came
-            from my work with Ritika's Global Grains, which uses the same
-            technology to preserve cooked rice. Through that work, we've
-            partnered with major retailers on private-label products expected
-            to reach shelves within the next year. Our goal is to give pet
-            owners a more convenient option and give dogs healthier,
-            better-tasting food.
-        </p>
+        </article>
 
-        <h3>Community Work</h3>
+        <article class="project-card">
+            <h3>Human-Grade Dog Food Company</h3>
+            <p>
+                 I also work on a human-grade dog food company that uses retort
+                packaging, which seals and heat-sterilizes food in its pouch so it
+                stays fresh at room temperature for extended periods. The idea came
+                from my work with Ritika's Global Grains, which uses the same
+                technology to preserve cooked rice. Through that work, we've
+                partnered with major retailers on private-label products expected
+                to reach shelves within the next year. Our goal is to give pet
+                owners a more convenient option and give dogs healthier,
+                better-tasting food.
+            </p>
+        </article>
+    </section>
+    
+    <section>
+        <h2>Community Work</h2>
         <p>
            I've run food-related volunteer programs for nonprofits across the
            Philadelphia area, including Ronald McDonald House Charities.
@@ -55,16 +69,20 @@
            products to people in need across America, and I've had the
            opportunity to collaborate with players from the Eagles and the Phillies.
         </p>
-
-        <h4>Outside of School</h4>
+    </section>
+    
+    <section>
+        <h2>Outside of School</h2>
         <p>
-            When I'm not working on school or business projects, I enjoy reading, cooking, exercising, spending time outside, and playing sports, especially basketball. 
-            I also enjoy traveling and exploring new places, and I try to take at least one trip each year to a new city or country.
+            When I'm not working on school or business projects, I enjoy reading, cooking, 
+            exercising, spending time outside, and playing sports, especially basketball. 
+            I also enjoy traveling and exploring new places, and I try to take at least one 
+            trip each year to a new city or country.
         </p>
-
+    </section>
     </main>
     <footer>
-        <p> 2026 Christopher Jefairjian.</p>
+        <p> &copy; 2026 Christopher Jefairjian.</p>
     </footer>
 </body>
 </html> 

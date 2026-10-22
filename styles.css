@@ -1,0 +1,60 @@
+/* 1. Type selectors - page-wide defaults */ 
+
+body {
+    /* base font, text color, and background for the whole site */ 
+}
+
+h1,
+h2, 
+h3 {
+    /*shared heading font and color */ 
+} 
+
+a {
+    /* link color and text decoration */ 
+}
+
+/* 2. Combinators on type selectors - elements in a region */
+
+nav a { 
+
+    /* nav links look different from body links */ 
+}
+
+footer p { 
+    /* small, muted footer text */
+}
+
+/* 3. Class selectors - reusable compenents */
+.site-name {
+    /* my name in the header, styled like a logo */ 
+}
+
+.project-card {
+    /* card surface for each project */ 
+} 
+
+/* 4. Combinators involving classes */ 
+.project-card h3 { 
+    /* project title inside a card */ 
+}
+
+nav a.current { 
+    /* marks the page you are on */ 
+}
+
+/* 5. Id selectors - unique elements on the page */ 
+#hero {
+    /* large intro block on the home page only */ 
+}
+
+/* 6. Interactive states */ 
+nav a:hover, 
+.site-name a:hover { 
+    /* response to the mouse */ 
+}
+
+nav a:focus-visible, 
+.site-name a:focus-visible {
+    /* focus indicator for keyboard users */ 
+}
