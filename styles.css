@@ -11,13 +11,6 @@
     --color-surface-light: #e8ddd0;
     --color-surface-medium: #cfb9a3;
 
-    --font-size-small: 0.875rem;
-    --font-size-base: 1rem;
-    --font-size-large: 1.25rem;
-    --font-size-h2: 1.5rem;
-    --font-size-heading: 2.25rem;
-
-    --space-base: 1rem;
 }
 
 /* 1. Type selectors - page-wide defaults */
