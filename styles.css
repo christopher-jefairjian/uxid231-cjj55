@@ -19,7 +19,7 @@ body {
     /* base font, text color, and background for the whole site */
     background-color: var(--color-background);
     color: var(--color-foreground);
-    font-size: var(--font-size-base);
+
 }
 
 h1,
@@ -47,7 +47,6 @@ nav a {
 footer p {
     /* small, muted footer text */
     color: var(--color-foreground);
-    font-size: var(--font-size-small);
 }
 
 
@@ -56,7 +55,6 @@ footer p {
 .site-name {
     /* my name in the header, styled like a logo */
     color: var(--color-brand-dark);
-    font-size: var(--font-size-large);
 }
 
 .project-card {
