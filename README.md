@@ -12,3 +12,5 @@ For Assignment #2 I used ChatGPT to help me understand what certain terms mean.
 For Assignment #3 I used ChatGPT to review code I wrote and help me better understand certain topics from the course notes, such as creating external links that open in a new tab
 
 For Assignment #4 I used ChatGPT to help review my code and to help me understand certain terms and what they mean 
+
+For Assignment #5 I used ChatGPT to help review my code and give my some ideas on different color palletes that work nicely with eachother 
