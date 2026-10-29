@@ -1,60 +1,110 @@
-/* 1. Type selectors - page-wide defaults */ 
+:root {
+    --color-background: #f5f0e8;
+    --color-foreground: #2f2925;
+
+    --color-brand: #8a5a44;
+    --color-brand-dark: #51382e;
+
+    --color-link: #76503d;
+    --color-link-hover: #b06f4f;
+
+    --color-surface-light: #e8ddd0;
+    --color-surface-medium: #cfb9a3;
+
+    --font-size-small: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-large: 1.25rem;
+    --font-size-h2: 1.5rem;
+    --font-size-heading: 2.25rem;
+
+    --space-base: 1rem;
+}
+
+/* 1. Type selectors - page-wide defaults */
 
 body {
-    /* base font, text color, and background for the whole site */ 
+    /* base font, text color, and background for the whole site */
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-size: var(--font-size-base);
 }
 
 h1,
-h2, 
+h2,
 h3 {
-    /*shared heading font and color */ 
-} 
+    /* shared heading font and color */
+    color: var(--color-brand-dark);
+}
 
 a {
-    /* link color and text decoration */ 
+    /* link color and text decoration */
+    color: var(--color-link);
+    text-decoration: underline;
 }
+
 
 /* 2. Combinators on type selectors - elements in a region */
 
-nav a { 
-
-    /* nav links look different from body links */ 
+nav a {
+    /* nav links look different from body links */
+    color: var(--color-brand-dark);
+    text-decoration: none;
 }
 
-footer p { 
+footer p {
     /* small, muted footer text */
+    color: var(--color-foreground);
+    font-size: var(--font-size-small);
 }
+
 
 /* 3. Class selectors - reusable compenents */
+
 .site-name {
-    /* my name in the header, styled like a logo */ 
+    /* my name in the header, styled like a logo */
+    color: var(--color-brand-dark);
+    font-size: var(--font-size-large);
 }
 
 .project-card {
-    /* card surface for each project */ 
-} 
-
-/* 4. Combinators involving classes */ 
-.project-card h3 { 
-    /* project title inside a card */ 
+    /* card surface for each project */
+    background-color: var(--color-surface-light);
 }
 
-nav a.current { 
-    /* marks the page you are on */ 
+
+/* 4. Combinators involving classes */
+
+.project-card h3 {
+    /* project title inside a card */
+    color: var(--color-brand);
 }
 
-/* 5. Id selectors - unique elements on the page */ 
+nav a.current {
+    /* marks the page you are on */
+    color: var(--color-brand);
+    text-decoration: underline;
+}
+
+
+/* 5. Id selectors - unique elements on the page */
+
 #hero {
-    /* large intro block on the home page only */ 
+    /* large intro block on the home page only */
+    background-color: var(--color-surface-medium);
 }
 
-/* 6. Interactive states */ 
-nav a:hover, 
-.site-name a:hover { 
-    /* response to the mouse */ 
+
+/* 6. Interactive states */
+
+nav a:hover,
+.site-name a:hover {
+    /* response to the mouse */
+    color: var(--color-link-hover);
 }
 
-nav a:focus-visible, 
+nav a:focus-visible,
 .site-name a:focus-visible {
-    /* focus indicator for keyboard users */ 
+    /* focus indicator for keyboard users */
+    outline: 2px solid var(--color-link);
+    outline-offset: 3px;
 }
