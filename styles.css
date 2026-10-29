@@ -10,7 +10,7 @@
 
     --color-surface-light: #e8ddd0;
     --color-surface-medium: #cfb9a3;
-
+/* Used AI to help figure out the color scheme for the website and to make sure these colors pass the WCAG color contrast scale */ 
 }
 
 /* 1. Type selectors - page-wide defaults */
@@ -33,6 +33,7 @@ a {
     /* link color and text decoration */
     color: var(--color-link);
     text-decoration: underline;
+    /* Used AI for text decoration underline, so that a user can indicate that it is a link when looking at the page. */
 }
 
 
@@ -71,9 +72,9 @@ footer p {
 }
 
 nav a.current {
-    /* marks the page you are on */
     color: var(--color-brand);
     text-decoration: underline;
+    /* Used AI for text decoration underline, so that a user can indicate that it is a link when looking at the page. */
 }
 
 
@@ -89,13 +90,11 @@ nav a.current {
 
 nav a:hover,
 .site-name a:hover {
-    /* response to the mouse */
     color: var(--color-link-hover);
 }
 
 nav a:focus-visible,
 .site-name a:focus-visible {
-    /* focus indicator for keyboard users */
     outline: 2px solid var(--color-link);
-    outline-offset: 3px;
+    outline-offset: 2px;
 }
